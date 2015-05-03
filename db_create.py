@@ -3,7 +3,7 @@ from models import BlogPost
 
 
 #run when adding new columns in testing, will delete previous data.
-db.drop_all()
+#db.drop_all()
 
 db.create_all()
 
